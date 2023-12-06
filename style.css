@@ -1,0 +1,68 @@
+/* Your existing styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://cdn.elearningindustry.com/wp-content/uploads/2016/10/gamified-language-learning-duolingo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+header {
+    background-color: rgba(52, 152, 219, 0.8); /* Using an rgba color for better visibility */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+    border-radius: 10px; /* Add rounded corners for the main content */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Add responsive styles */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
+
+/* Add styles for round buttons */
+.round-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Adjust as needed for your design */
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+/* Hover effect for round buttons */
+.round-button:hover {
+    background-color: #2980b9;
+}
